@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DUOC UC - Página Básica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0055a5;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilos para imagen */
+       .logo {
+    display: block;
+    margin: 15px auto;
+    max-width: 120px;   /* achica el tamaño */
+    height: auto;       /* mantiene la proporción */
+    border-radius: 8px; /* bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* sombra suave */
+}
+
+        /* Estilos para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #003366;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DUOC UC</h1>
+        <p>Sitio Web Básico de Ejemplo</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Carreras</a>
+        <a href="#">Admisión</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Bienvenidos</h2>
+            <p>Este es un ejemplo de un sitio web básico de DUOC con estilos <b>embebidos en el HTML</b>.</p>
+            <!-- Imagen de ejemplo -->
+            <img src="C:/img/logoduoc.jpeg" alt="Logo DUOC UC" class="logo">
+        </section>
+
+        <section>
+            <h2>Noticias</h2>
+            <p>📌 Nueva matrícula abierta para el próximo semestre.</p>
+        </section>
+
+        <section>
+            <h2>Carreras Destacadas</h2>
+            <!-- Tabla de ejemplo -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Carrera</th>
+                        <th>Duración</th>
+                        <th>Modalidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ingeniería en Informática</td>
+                        <td>8 semestres</td>
+                        <td>Presencial / Online</td>
+                    </tr>
+                    <tr>
+                        <td>Diseño Gráfico</td>
+                        <td>8 semestres</td>
+                        <td>Presencial</td>
+                    </tr>
+                    <tr>
+                        <td>Administración de Empresas</td>
+                        <td>8 semestres</td>
+                        <td>Presencial / Online</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 DUOC UC - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
